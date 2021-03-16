@@ -1,0 +1,74 @@
+@function redondo($num: 100%) {
+  @return $num;
+}
+
+.no-list {
+  list-style: none;
+  padding: 0;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.curriculum-padding {
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+
+  .header__logo {
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+  }
+}
+
+.curriculum {
+  background-color: #ffff;
+  color: black;
+  display: flex;
+  box-shadow: 1px 3px 10px;
+
+  .curriculum__left {
+    flex: 1;
+
+    .curriculum__image {
+      width: 100%;
+      display: block;
+      border-radius: redondo();
+      border: solid 1px $curriculum-primary;
+    }
+  }
+
+  .curriculum__right {
+    flex: 2;
+    background-color: $curriculum-bg;
+  }
+
+  .section__title {
+    color: $curriculum-primary;
+  }
+
+  .section__title:after {
+    content: '';
+    border-bottom: solid $curriculum-primary;
+    display: block;
+    width: 10%;
+    border-radius: redondo();
+    margin: 15px 0;
+  }
+}
+
+.footer {
+  margin: 40px -30px -46px -30px;
+  padding: 2px;
+  background-color: $uoc-corporate;
+  color: $uoc-bg;
+}
