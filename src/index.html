@@ -9,18 +9,154 @@
         <title>UOC Boilerplate</title>
     </head>
     <body>
-        <img
-            src="./assets/images/logo.png"
-            alt="Universitat Oberta de Catalunya"
-            class="uoc-logo"
-        />
-        <h1 class="uoc-title">Hello, UOC!<i class="fas fa-university"></i></h1>
-        <p>
-            This is a starter template for the Advanced HTML and CSS Tools courses from the Master's
-            Program in Multimedia Applications and the Master's Program in Web App and Website
-            Development at the Universitat Oberta de Catalunya.
-        </p>
-        <script src="./assets/scripts/main.js"></script>
+        <header class="header">
+            <img
+                src="./assets/images/logo.png"
+                alt="Universitat Oberta de Catalunya"
+                class="header__logo"
+            />
+            <div class="header__title">
+                <h1>Herramientas HTML y CSS II</h1>
+                <h2>PEC 1: Curriculum</h2>
+            </div>
+        </header>
+        <main class="curriculum">
+            <div class="curriculum__left curriculum-padding">
+                <img
+                    src="./assets/images/profile.png"
+                    alt="Universitat Oberta de Catalunya"
+                    class="curriculum__image text-center"
+                />
+                <h2 class="curriculum__nombre text-center">Antonio Jesús Rodas Rueda</h2>
+                <h3 class="curriculum__profesion text-center">
+                    Graduado en Ingeniería Informática
+                </h3>
+                <div class="curriculum__section">
+                    <h3 class="section__title">PERFIL</h3>
+                    <p class="section__text">
+                        Graduado en Ingeniería Informática por la Universidad de Cádiz. Actualmente
+                        trabajando de lo que más me gusta como es el desarrollo software. Me gusta
+                        el deporte, tanto practicarlo como verlo. Me considero una persona
+                        trabajadora y siempre con ganas de aprender. Me gusta trabajar en equipo.
+                    </p>
+                </div>
+                <div class="curriculum__section">
+                    <h3 class="section__title">DATOS PERSONALES</h3>
+                    <ul class="section__list no-list">
+                        <li class="section__item" title="Fecha de nacimiento">
+                            <i class="fas fa-birthday-cake"></i> 14/10/1991
+                        </li>
+                        <li class="section__item" title="Dirección">
+                            <i class="fas fa-home"></i> Calle Ancha, San Fernando, Cádiz
+                        </li>
+                        <li class="section__item" title="Teléfono">
+                            <i class="fas fa-phone"></i> 668784512
+                        </li>
+                        <li class="section__item" title="Email">
+                            <i class="fas fa-envelope-open-text"></i> ajrodasr@uoc.edu
+                        </li>
+                        <li class="section__item" title="Linkedin">
+                            <i class="fab fa-linkedin"></i> /ajrodasr
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="curriculum__right curriculum-padding">
+                <h1 class="curriculum__title text-center">CURRICULUM VITAE</h1>
+                <div class="curriculum__section">
+                    <h3 class="section__title">EDUCACIÓN</h3>
+                    <ul class="section__list">
+                        <li class="section__item">
+                            Bachillerato Ciencias Tecnológicas | 2006 - 2008 | IES Sancti Petri
+                        </li>
+                        <li class="section__item">
+                            Graduado en Ingeniería Informática | 2008 - 2014 | Universidad de Cádiz
+                        </li>
+                        <li class="section__item">B1 Ingles | 2014 | APTIS British Council</li>
+                    </ul>
+                </div>
+                <div class="curriculum__section">
+                    <h3 class="section__title">FORMACIÓN</h3>
+                    <ul class="section__list">
+                        <li class="section__item">
+                            Gestor de contenido Alfresco | 2017 | Grupo iD
+                        </li>
+                        <li class="section__item">
+                            JavaScript, Node.js, Express & MongoDB | 2017 | KeepCoding
+                        </li>
+                        <li class="section__item">Liferay 7 | 2018 | Grupo iD</li>
+                        <li class="section__item">
+                            Desarrollo Web Seguro | 2018 | IMF Business School
+                        </li>
+                    </ul>
+                </div>
+                <div class="curriculum__section">
+                    <h3 class="section__title">EXPERIENCIA LABORAL</h3>
+                    <p class="section__text text-bold">2016 | Talentum Startups Telefónica</p>
+                    <ul class="section__list">
+                        <li class="section__item">Desarrollador web</li>
+                    </ul>
+                    <p class="section__text text-bold">2017 | Becario EPICSA</p>
+                    <ul class="section__list">
+                        <li class="section__item">Desarrollador web</li>
+                        <li class="section__item">Desarrollador aplicaciones multimedia</li>
+                        <li class="section__item">
+                            Administración de bases de datos Oracle y MySQL
+                        </li>
+                        <li class="section__item">Consultoría</li>
+                    </ul>
+                    <p class="section__text text-bold">2017 - 2019 | Técnico en prácticas EPICSA</p>
+                    <ul class="section__list">
+                        <li class="section__item">Desarrollador web</li>
+                        <li class="section__item">Desarrollador aplicaciones multimedia</li>
+                        <li class="section__item">
+                            Administración de bases de datos Oracle y MySQL
+                        </li>
+                        <li class="section__item">Consultoría</li>
+                        <li class="section__item">Gestor de contenidos</li>
+                        <li class="section__item">
+                            Configuración y uso de herramientas de administración electrónica
+                        </li>
+                        <li class="section__item">
+                            Instructor en aplicaciones de administración electrónica
+                        </li>
+                    </ul>
+                    <p class="section__text text-bold">2019 - Actualidad | Técnico EPICSA</p>
+                    <ul class="section__list">
+                        <li class="section__item">Desarrollador web</li>
+                        <li class="section__item">Desarrollador aplicaciones multimedia</li>
+                        <li class="section__item">
+                            Administración de bases de datos Oracle y MySQL
+                        </li>
+                        <li class="section__item">Consultoría</li>
+                        <li class="section__item">Gestor de contenidos</li>
+                        <li class="section__item">
+                            Configuración y uso de herramientas de administración electrónica
+                        </li>
+                        <li class="section__item">
+                            Instructor en aplicaciones de administración electrónica
+                        </li>
+                        <li class="section__item">Desarrollador de trámites electrónicos</li>
+                    </ul>
+                </div>
+                <div class="curriculum__section">
+                    <h3 class="section__title">DATOS DE INTERES</h3>
+                    <ul class="section__list">
+                        <li class="section__item">Carnet de conducir B</li>
+                        <li class="section__item">Coche propio</li>
+                        <li class="section__item">Disponibilidad jornada completa</li>
+                        <li class="section__item">Abierto a desplazamientos</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <ul class="footer__list no-list text-center">
+                <li class="footer__item">&copy; 2021 Antonio Jesús Rodas Rueda</li>
+                <li class="footer__item">Herramientas HTML y CSS II</li>
+                <li class="footer__item">Universidad Oberta de Catalunya</li>
+            </ul>
+        </footer>
         <!-- do not remove this line! -->
     </body>
 </html>
